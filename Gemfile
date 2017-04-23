@@ -1,0 +1,10 @@
+source "https://rubygems.org"
+
+gem "rake"
+gem "rspec"
+gem "activerecord"
+gem "sqlite3"
+gem "kaminari-activerecord"
+gem "tty-prompt", git: "https://github.com/yetanothernguyen/tty-prompt", branch: "quick-list"
+gem "tty-table"
+gem "pastel"
