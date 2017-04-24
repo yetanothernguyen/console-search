@@ -6,6 +6,7 @@ class ItemView
     @item           = item
     @presented_item = presenter.new(item)
     @done           = false
+    @pastel         = Pastel.new
 
     @prompt.subscribe(self)
   end
@@ -39,7 +40,9 @@ class ItemView
   def render_item_table
     table = TTY::Table.new header: ["Field", "Value"], rows: @presented_item.details
     rendered_table = table.render(:unicode, padding: [0, 2])
-    rendered_table += "\n(Use Backspace to go back to search results)\n"
+    rendered_table += "\n"
+    rendered_table += @pastel.bright_black("(Use Backspace to go back to search results)")
+    rendered_table += "\n"
     rendered_table
   end
 end

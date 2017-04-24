@@ -129,7 +129,7 @@ class ListView
     "\n" +
       @pastel.bright_black("(Use up and down, left and right to nagivate between result items and pages)") +
       "\n" +
-      @pastel.bright_black("(Enter to view details of a result item)") +
+      @pastel.bright_black("(Enter to view item details)") +
       render_footer_exit_help
   end
 
