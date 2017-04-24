@@ -15,7 +15,7 @@ module Searchable
   end
 
   def sanitize_value(field, value)
-    return nil if value.nil?
+    return "" if value.nil?
     if boolean_fields.include?(field)
       return true if value.casecmp("true")
       return false if value.casecmp("false")
