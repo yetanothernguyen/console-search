@@ -1,0 +1,1 @@
+class InvalidSearchField < StandardError; end
