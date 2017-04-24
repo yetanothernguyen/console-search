@@ -1,5 +1,7 @@
 # Console Search
 
+[![asciicast](https://asciinema.org/a/80zon30rn5lq4b6g5tdimch1z.png)](https://asciinema.org/a/80zon30rn5lq4b6g5tdimch1z?autoplay=1)
+
 ## Documentation
 
 ### Requirements
