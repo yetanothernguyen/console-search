@@ -1,6 +1,6 @@
 # Console Search
 
-[![asciicast](https://asciinema.org/a/116938.png)](https://asciinema.org/a/116938)
+[![asciicast](https://asciinema.org/a/116949.png)](https://asciinema.org/a/116949)
 
 ## Documentation
 
